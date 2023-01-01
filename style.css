@@ -1,0 +1,362 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background: url(Pics/header.webp) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+nav{
+    display: flex;
+    padding: 1% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav i{
+    text-align: left;
+    font-size: 50px;
+    color: white;
+}
+.myul{
+    flex: 1;
+    text-align: right;
+}
+.myul ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 12px 16px;
+    position: relative;
+}
+.myul ul li a{
+    color: #777;
+    font-size: 15px;
+    text-decoration: none;
+}
+.myul ul li a::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    margin: auto;
+    display: block;
+    background: white;
+}
+.myul ul li a:hover::after{
+    width: 100%;
+    transition: 0.5s;
+}
+.myul ul li a:hover{
+    color: white;
+    transition: 0.4s;
+}
+.btn1{
+    background: none;
+    color: black;
+    border: 1px solid black;
+    font-size: 16px;
+    padding: 12px 18px;
+    background-color: white;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+.txtbox1{
+    position: absolute;
+    top: 40%;
+    left: 8%;
+    display: block;
+    height: 250px;
+}
+.txtbox1 h1{
+    font-size: 45px;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 11px;
+
+}
+.txtbox1 p{
+    color: white;
+    font-size: 18px;
+}
+.btn2{
+    background: none;
+    color: black;
+    border: 1px solid black;
+    font-size: 17px;
+    padding: 10px 12px;
+    background-color: white;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: 500;
+    text-decoration: none;
+    position: relative;
+    top: 10%;
+    transition: 0.5s;
+}
+.btn2:hover{
+    background-color: black;
+    color: white;
+}
+.first{
+    width: 80%;
+    height: 60vh;
+    margin: auto;
+    display: flex;
+}
+.firstcontent{
+    width: 50%;
+    height: 100%;
+    display: block;
+    margin: 10% 0;
+}
+.firstcontent h2{
+    font-size: 35px;
+    color: rgb(29, 29, 29);
+}
+.firstcontent ul li{
+    list-style: none;
+    margin-top: 18px;
+    font-size: 17px;
+    color: rgb(36, 35, 35);
+}
+.firstcontent ul li i{
+    margin-right: 15px;
+    color: black;
+}
+.firstpic{
+    width: 50%;
+    height: auto;
+
+}
+.firstpic img{
+    width: 100%;
+    height: 70%;
+    margin-top: 30%;
+    margin-left: 20px;
+    transition: 0.5s;
+}
+.firstpic img:hover{
+    transform: translateY(-10px);
+}
+.second{
+    width: 100%;
+    background-color: rgb(29, 29, 29);
+    height: 440vh;
+    display: block;
+}
+.second h2{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 500;
+    color: white;
+    margin: 9% 15%;
+    padding-top: 10%;
+}
+.second1{
+    width: 80%;
+    height: 60vh;
+    margin: 7% auto;
+    background-color: white;
+    display: flex;
+}
+.secondcontent{
+    display: block;
+    width: 50%;
+    height: 100%;
+    margin: 40px 20px;
+}
+.secondcontent h2{
+    color: black;
+    text-align: left;
+    margin: 0;
+    margin-left: 40px;
+    font-size: 35px;
+}
+.secondcontent p{
+    color: #777;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+.btn3{
+    background: none;
+    color: black;
+    border: 1px solid black;
+    font-size: 15px;
+    padding: 10px 12px;
+    background-color: white;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: 500;
+    text-decoration: none;
+    position: relative;
+    top: 5%;
+    margin-left: 35px;
+    transition: 0.5s;
+}
+.btn3:hover{
+    background-color: black;
+    color: white;
+}
+.secondpic{
+    width: 50%;
+    height: 100%;
+    margin: 20px 0;
+}
+.secondpic img{
+    width: 100%;
+    height: 100%;
+    margin: 10px 0;
+}
+.third{
+    width: 80%;
+    height: 80vh;
+    margin: 0 auto;
+    display: block;
+}
+.third h2{
+    font-size: 35px;
+    font-weight: 400;
+
+}
+.thirdall{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    margin: 30px 0;
+
+}
+.thirdpic{
+    width: 33%;
+    height: 100%;
+    margin: 0 20px;
+    background: url(Pics/logo.jpeg);
+    background-size: cover;
+    display: block;
+    transition: 0.5s;
+}
+.thirdpic:hover{
+    transform: translateY(-12px);
+}
+.thirdpic img{
+    width: 100%;
+    height: 100%;
+}
+.btn4{
+    background: none;
+    color: white;
+    border: 1px solid #777;
+    font-size: 15px;
+    padding: 10px 12px;
+    background-color: black;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: 500;
+    text-decoration: none;
+    transition: 0.5s;
+    position: relative;
+    bottom: 18%;
+    left: 30%;
+    z-index: 1;
+    
+}
+.btn4:hover{
+    transform: translateY(-7px);
+}
+.ford{
+    width: 80%;
+    height: 35vh;
+    margin: 20% 10%;
+    display: block;
+    text-align: center;
+}
+.ford h2{
+    font-size: 35px;
+    font-weight: 400;
+}
+.btn5{
+    background: none;
+    color: black;
+    border: 1px solid #777;
+    font-size: 18px;
+    padding: 16px 32px;
+    background-color: white;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: 300;
+    text-decoration: none;
+    transition: 0.5s;    
+    position: relative;
+    bottom: 30%;
+    transition: 0.5s;
+}
+.btn5:hover{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+.fifth{
+    width: 80%;
+    height: 40vh;
+    margin: auto;
+    display: flex;
+}
+.info{
+    width: 50%;
+    height: 100%;
+    text-align: left;
+    margin: 50px 0;
+}
+.info p{
+    margin-top: 20px;
+    width: 70%;
+}
+.info a{
+    margin: 40px 30px;
+    color: orange;
+    font-size: 40px;
+}
+
+.contactapple{
+    width: 50%;
+    height: 100%;
+    text-align: left;
+    margin: 50px 30px;
+    padding-left: 290px;
+}
+.contactapple h3{
+    margin-bottom: 40px;
+    border-bottom: 1px solid #777;
+    padding-bottom: 10px;
+    font-weight: 500;
+    text-align: center;
+}
+.contactapple i{
+    font-size: 40px;
+    color: black;
+    margin: 0 30px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.contactapple i:hover{
+    transform: translateY(-7px);
+}
+.footy{
+    background-color: rgb(29, 29, 29);
+    height: 10vh;
+    width: 100%;
+}
+.footy h3{
+    text-align: center;
+    color: white;
+    font-weight: 200;
+    font-size: 15px;
+    position: relative;
+    top: 50%;
+}
